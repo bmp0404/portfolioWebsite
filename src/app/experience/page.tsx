@@ -3,7 +3,7 @@ import { Nav } from "@/components/Nav";
 import { ExperienceSection } from "@/components/ExperienceSection";
 
 export const metadata: Metadata = {
-  title: "Experience — Krish Dhanuka",
+  title: "Experience - Krish Dhanuka",
 };
 
 export default function ExperiencePage() {

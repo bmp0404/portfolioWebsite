@@ -24,7 +24,7 @@ export const projects: Project[] = [
     year: "2026",
     title: "JimmySimulation",
     description:
-      "NVIDIA hackathon prototype testing whether many small, fast LLM-driven agent decisions can produce more realistic evacuation behavior than a purely formulaic simulator. A deterministic engine owns all physics and timing; agents only make constrained, schema-validated routing decisions with deterministic fallbacks.",
+      "A prototype testing whether many small, fast LLM-driven agent decisions can produce more realistic evacuation behavior than a purely formulaic simulator. A deterministic engine owns all physics and timing; agents only make constrained, schema-validated routing decisions with deterministic fallbacks.",
     tags: ["Python", "FastAPI", "React", "React Flow", "LLM Agents"],
     links: [{ label: "GitHub", href: "https://github.com/ChetanGorantla/jimmySimulation" }],
   },
@@ -32,7 +32,7 @@ export const projects: Project[] = [
     year: "2025",
     title: "Canopus",
     description:
-      "Turns a natural-language math prompt into a narrated, 3Blue1Brown-style animation — one thread generates ElevenLabs audio while another generates Manim animation code, then FFmpeg merges them. Multithreading cut generation time 40-50%.",
+      "Turns a natural-language math prompt into a narrated, 3Blue1Brown-style animation: one thread generates ElevenLabs audio while another generates Manim animation code, then FFmpeg merges them. Multithreading cut generation time 40-50%.",
     tags: ["Flask", "Gemini", "Manim", "ElevenLabs", "FFmpeg"],
     links: [
       { label: "GitHub", href: "https://github.com/Rohan-Yelandur/hack-tx-25" },
@@ -51,7 +51,7 @@ export const projects: Project[] = [
     year: "2025",
     title: "Embedded Space Invaders",
     description:
-      "Bare-metal game engine built from scratch on a TI MSPM0G3507 — custom PCB, SPI LCD graphics, 12-bit DAC audio, and a timer-driven ISR game loop. Fixed sprite-trail artifacts by scaling the erase buffer proportionally to game speed instead of using a fixed buffer.",
+      "Bare-metal game engine built from scratch on a TI MSPM0G3507: custom PCB, SPI LCD graphics, 12-bit DAC audio, and a timer-driven ISR game loop. Fixed sprite-trail artifacts by scaling the erase buffer proportionally to game speed instead of using a fixed buffer.",
     tags: ["C/C++", "Embedded Systems", "SPI", "PCB Design"],
     links: [{ label: "Video", href: "https://youtube.com/shorts/rKMOJgzfXrA?feature=share" }],
   },
@@ -70,7 +70,7 @@ export const projects: Project[] = [
     year: "2025",
     title: "Jamboree",
     description:
-      "MERN app for synced group music listening — users join genre-based 'bubbles' via the Spotify Web API, with the server as the single source of truth for playback timing so late joiners calculate elapsed offset locally instead of polling continuously.",
+      "MERN app for synced group music listening. Users join genre-based 'bubbles' via the Spotify Web API, with the server as the single source of truth for playback timing so late joiners calculate elapsed offset locally instead of polling continuously.",
     tags: ["React", "Node.js", "MongoDB", "Spotify API", "OAuth"],
     links: [
       { label: "GitHub", href: "https://github.com/bmp0404/RecordHacks" },
@@ -81,7 +81,7 @@ export const projects: Project[] = [
     year: "2024",
     title: "Google Maps Lead Scraper",
     description:
-      "Freelance automation tool for a small-business consulting client — a Node.js/Playwright script that scrapes Google Maps listings and flags restaurants without websites, tripling the team's lead-generation productivity.",
+      "Freelance automation tool for a small-business consulting client: a Node.js/Playwright script that scrapes Google Maps listings and flags restaurants without websites, tripling the team's lead-generation productivity.",
     tags: ["Node.js", "Playwright", "Web Scraping"],
     links: [{ label: "GitHub", href: "https://github.com/bmp0404/lead-finder-bot" }],
   },

@@ -3,7 +3,7 @@ import { Nav } from "@/components/Nav";
 import { ProjectsSection } from "@/components/ProjectsSection";
 
 export const metadata: Metadata = {
-  title: "Projects — Krish Dhanuka",
+  title: "Projects - Krish Dhanuka",
 };
 
 export default function ProjectsPage() {

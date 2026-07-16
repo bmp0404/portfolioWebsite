@@ -16,9 +16,7 @@ export function Hero() {
           </p>
 
           <p className="mt-4 max-w-xl font-body text-base leading-relaxed text-muted">
-            I build products at the intersection of AI, infrastructure, and
-            applied machine learning. I like turning messy problems into
-            small, well-made tools.
+            I like building applied ML and software that helps people.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-3 font-mono text-sm">
