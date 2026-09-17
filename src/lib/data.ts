@@ -14,6 +14,14 @@ export type Project = {
 export const projects: Project[] = [
   {
     year: "2026",
+    title: "Coordigent",
+    description:
+      "A coordination layer for engineering teams running multiple AI coding agents in parallel on a shared codebase. A per-developer CLI hooks into each agent's event surface and streams normalized events to a central server, enabling real-time visibility, file-level claim conflict detection, agent-to-agent messaging, and cross-session handoffs. Ships two CLIs, an MCP server with 11 tools and 8 client adapters, a live dashboard, and Slack/Teams integrations — all backed by PostgreSQL with advisory locking and at-least-once delivery.",
+    tags: ["TypeScript", "Bun", "Hono", "React", "PostgreSQL", "MCP Protocol"],
+    links: [{ label: "Website", href: "https://coordigent.com" }],
+  },
+  {
+    year: "2026",
     title: "Diagrammr",
     description:
       "Visualizes how a codebase's architecture evolves across git history, rendering the commit DAG as an interactive canvas and generating an LLM-powered architecture diagram for any commit. An incremental caching pipeline sends only the git diff to the model when a cached ancestor exists, cutting token cost and latency.",
@@ -98,17 +106,17 @@ export type ExperienceItem = {
 
 export const experience: ExperienceItem[] = [
   {
-    company: "Lonyst",
-    role: "Co-Founder",
-    period: "Jun 2026 – Present",
-    blurb: "Building credit infrastructure for small businesses.",
-    logo: "/logos/lonyst.jpeg",
+    company: "Healthpeak Properties, Inc.",
+    role: "Software Engineer Contractor",
+    period: "Sep 2026 – Present",
+    blurb: "Invoice management.",
+    logo: "/logos/healthpeakLogo.png",
   },
   {
     company: "IBM",
     role: "Software Engineer Intern",
     period: "Aug 2026 – Dec 2026",
-    blurb: "Identity and access management, applied to AI systems.",
+    blurb: "Building a passkey enterprise application for Android and Windows that replaces physical security keys with device hardware attestation.",
     logo: "/logos/ibm.jpg",
   },
   {
