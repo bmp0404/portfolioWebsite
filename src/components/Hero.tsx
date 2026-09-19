@@ -34,6 +34,7 @@ export function Hero() {
               width={480}
               height={600}
               priority
+              unoptimized
               className="h-full w-full object-cover"
             />
           </div>
